@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+
+<body>
+
+    <div class="con">
+        <div class="box" id="box">
+            <div class="logo">
+                <img src="images/icon-star.svg" alt="logo">
+            </div>
+            <div class="head">
+                <h1 class="overpass-two">How did we do?</h1>
+                <p class="overpass-one">Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!</p>
+            </div>
+            <div class="row">
+                <div class="number">
+                    <input type="button" value="1" name="number" id="number1" onclick="selectOption()">
+                    <label for="number1"></label>
+                </div>
+                <div class="number">
+                    <input type="button" value="2" name="number" id="number2">
+                    <label for="number2"></label>
+                </div>
+                <div class="number">
+                    <input type="button" value="3" name="number" id="number3">
+                    <label for="number3"></label>
+                </div>
+                <div class="number">
+                    <input type="button" value="4" name="number" id="number4">
+                    <label for="number4"></label>
+                </div>
+                <div class="number">
+                    <input type="button" value="5" name="number" id="number5">
+                    <label for="number5"></label>
+                </div>
+            </div>
+            <div class="button">
+                <input class="main-button" type="button" value="Submit" id="number6" onclick="submit()">
+                <label for="number6"></label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function selectOption(){
+            let buttonOne = document.getElementById("number1");
+            let buttonTwo = document.getElementById("number2");
+            let buttonThree = document.getElementById("number3");
+            let buttonFive = document.getElementById("number4");
+            let buttonSix = document.getElementById("number5");
+           
+           buttonSix.style.color = "white";
+        }
+
+        function submit() {
+            const box = document.getElementById("box");
+
+            box.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

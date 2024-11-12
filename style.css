@@ -1,0 +1,173 @@
+.overpass-one{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.overpass-two{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }  
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    width: 450px;
+    height: 450px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(211, 19%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 15px;
+    color:  hsl(217, 12%, 63%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#number1{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(211, 19%, 22%);
+    color: white;
+}
+
+#number1:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+
+#number1:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(211, 19%, 22%);
+}
+
+#number2{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(211, 19%, 22%);
+    color: white;
+}
+
+#number2:focus {
+    background: hsl(25, 97%, 53%);
+}
+#number2:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(211, 19%, 22%);
+}
+
+#number3{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(211, 19%, 22%);
+    color: white;
+}
+
+#number3:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+#number3:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(211, 19%, 22%);
+}
+
+#number4{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(211, 19%, 22%);
+    color: white;
+}
+
+#number4:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+#number4:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(211, 19%, 22%);
+}
+
+#number5{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(211, 19%, 22%);
+    color: white;
+}
+
+#number5:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+#number5:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(211, 19%, 22%);
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.main-button{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    transition: .2s;
+}
+.main-button:active,
+.main-button:hover {
+    background: #fff;
+}
+
