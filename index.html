@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="con">
+    <div class="con" id="con">
         <div class="box" id="box">
             <div class="logo">
                 <img src="images/icon-star.svg" alt="logo">
@@ -67,11 +67,22 @@
         }
 
         function submit() {
-            const box = document.getElementById("box");
-
+            let box = document.getElementById("box");
+            let con = document.getElementById("con");
             box.style.display = "none";
-        }
-    </script>
 
+            let div = document.createElement("div");
+            con.appendChild(div);
+            div.height=400;
+            
+
+            let img = document.createElement("img")
+            img.src = "images/illustration-thank-you.svg"
+
+            div.appendChild(img);  
+         
+        }
+
+    </script>
 </body>
 </html>
